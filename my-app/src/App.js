@@ -20,7 +20,7 @@ class App extends Component {
 
   // Map over this.state.marvelMovies and render a MovieCard component for each movie object
   render() {
-    return (
+    return (    
       <Wrapper>
         <Title>Marvel Brands List</Title>
         {this.state.marvelMovies.map(movie => (
