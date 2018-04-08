@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import movieCard from "./components/movieCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
+import MovieCard from "./components/MovieCard";
 import marvelMovies from "./marvelMovies.json";
 import "./App.css";
 
@@ -18,20 +18,18 @@ class App extends Component {
     this.setState({ marvelMovies });
   };
 
-  // Map over this.state.marvelMovies and render a movieCard component for each movie object
+  // Map over this.state.marvelMovies and render a MovieCard component for each movie object
   render() {
     return (
       <Wrapper>
         <Title>marvelMovies List</Title>
         {this.state.marvelMovies.map(movie => (
-          <movieCard
+          <MovieCard
             removeMovie={this.removeMovie}
             id={movie.id}
             key={movie.id}
             name={movie.name}
             image={movie.image}
-            occupation={movie.occupation}
-            location={movie.location}
           />
         ))}
       </Wrapper>
