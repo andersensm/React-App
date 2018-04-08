@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Gaurdians of the Galaxy",
+    "image": "./marvelImages/guardians.jpg",
+  },
+  {
+    "id": 2,
+    "name": "Avengers",
+    "image": "./marvelImages/avengers.jpg",
+  },
+  {
+    "id": 3,
+    "name": "Ant-Man",
+    "image": "./marvelImages/ant-man.jpg",
+  },
+  {
+    "id": 4,
+    "name": "Spider-Man",
+    "image": "./marvelImages/spider-man.jpg",
+  },
+  {
+    "id": 5,
+    "name": "Thor",
+    "image": "./marvelImages/thor.jpg",
+  },
+  {
+    "id": 6,
+    "name": "Captain America",
+    "image": "./marvelImages/captain.jpg",
+  },
+  {
+    "id": 7,
+    "name": "Doctor Strange",
+    "image": "./marvelImages/doctorStrange.jpg",
+  },
+  {
+    "id": 8,
+    "name": "Black Panther",
+    "image": "./marvelImages/blackpanther.jpg",
+  },
+  {
+    "id": 9,
+    "name": "Iron Man",
+    "image": "./marvelImages/ironMan.jpg",
+  }
+]
