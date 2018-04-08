@@ -22,7 +22,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>marvelMovies List</Title>
+        <Title>Marvel Brands List</Title>
         {this.state.marvelMovies.map(movie => (
           <MovieCard
             removeMovie={this.removeMovie}
