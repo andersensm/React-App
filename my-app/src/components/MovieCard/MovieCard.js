@@ -1,12 +1,17 @@
 import React from "react";
 import "./MovieCard.css";
 
-
-const MovieCard = props => (
-  <div className="card">
-    <div className="img-container">
-      <img alt={props.name} src={props.image} onClick={() => props.removeMovie(props.id)} className="remove"  />
-    </div>
-  </div>);
-
+const handleClick = (props) => {
+    props.reArrangeMovies();
+    props.clickedMovie(props.id);
+};
+const MovieCard = (props) => {
+    return (
+      <div className="card">
+        <div className="img-container" onClick={() => handleClick(props)}>
+          <img alt={props.name} src={props.image} />
+        </div>
+      </div>
+    )
+}
 export default MovieCard;
