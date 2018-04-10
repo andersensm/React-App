@@ -3,6 +3,7 @@ import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import Log from "./components/LogInfo"
 import MovieCard from "./components/MovieCard";
+import Footer from "./components/Footer"
 import marvelMovies from "./marvelMovies.json";
 import "./App.css";
 
@@ -53,6 +54,7 @@ class App extends Component {
                   clickedMovie={this.clickedMovie}
                 />
               ))}
+        <Footer />
       </Wrapper>
     );
   }
