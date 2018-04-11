@@ -1,0 +1,9 @@
+.black {
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+  color: black;
+  margin-bottom: 20px;
+  background-color: #282828;
+  height: 100px;
+}
